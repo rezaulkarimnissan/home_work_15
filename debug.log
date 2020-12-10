@@ -1,0 +1,7 @@
+[1128/134416.967:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1128/140425.453:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\SHEULY\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\0ab91501-2383-4b13-a5e4-0e754931a12e: The system cannot find the path specified. (0x3)
+[1201/212048.724:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/212554.586:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\SHEULY\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\fed46451-da84-4ad2-84e9-4725c5fb08e3: The system cannot find the path specified. (0x3)
+[1202/214625.091:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1209/181230.584:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1209/224719.308:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+
+}
+
+/*-----------------------------------
+       Navbar part start
+------------------------------------*/
+
+nav {
+    background: rgba(255, 255, 255, .8);
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav ul li {
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Raleway',
+        sans-serif;
+    text-transform: uppercase;
+    margin-right: 14px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #353535;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    color: #8ec448;
+}
+
+nav .form-inline {
+    position: relative;
+}
+
+nav .search-part {
+    padding-left: 10px;
+    padding-right: 40px;
+    width: 170px;
+    height: 35px;
+    border: 1px solid #353535;
+    border-radius: 2px;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Raleway',
+        sans-serif;
+
+
+}
+
+nav .icon {
+    position: absolute;
+    border: 1px solid #353535;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 8px 10px;
+}
+
+/*-----------------------------------
+       Navbar part end
+------------------------------------*/
+
+/*---------------------------------
+    Banner part start
+----------------------------------*/
+#banner-part {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 355px 0 257px 0;
+}
+
+#banner-part h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #353535;
+    margin-bottom: 30px;
+}
+
+#banner-part h1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Raleway',
+        sans-serif;
+    text-transform: uppercase;
+    color: #353535;
+    margin-bottom: 35px;
+}
+
+#banner-part a {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Raleway',
+        sans-serif;
+    text-transform: uppercase;
+    color: #353535;
+    border: 1px solid #353535;
+    padding: 12px 25px;
+    border-radius: 3px;
+    transition: .3s;
+    margin: 0 8px;
+}
+
+#banner-part a:hover {
+    background: #8ec448;
+    border-color: #8ec448;
+    color: #ffffff;
+}
+
+/*----------------------------
+    Banner part end
+----------------------------*/
+
+/*----------------------------
+    Service part start
+----------------------------*/
+#service {
+    margin-top: 100px;
+}
+
+#service .title-part {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#service .title-part h2 {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Raleway',
+        sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#service .title-part h2::after {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 2px;
+    background: #121212;
+    content: "";
+}
+
+#service .title-part p {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+
+}
+
+#service .ser-box {
+    width: 100%;
+    text-align: center;
+}
+
+#service .ser-box .icon i {
+    font-size: 25px;
+}
+
+#service .ser-box h4 {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Raleway',
+        sans-serif;
+    color: #353535;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+#service .ser-box p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #353535;
+    text-transform: capitalize;
+    margin-bottom: 80px;
+}
+
+
+/*----------------------------
+    Service part end
+----------------------------*/
+
+/*----------------------------
+    Work part start
+----------------------------*/
+#work .title-part {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#work .title-part h2 {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Raleway',
+        sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#work .title-part h2::after {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 2px;
+    background: #121212;
+    content: "";
+}
+
+#work .title-part p {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+
+}
+
+#work .work-items {
+    text-align: center;
+}
+
+#work .work-items ul li {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Raleway',
+        sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    position: relative;
+}
+
+#work .work-items ul li::after {
+    top: 25%;
+    right: -20px;
+    width: 2px;
+    height: 11px;
+    transform: translateX(-50%) rotate(30deg);
+    background: #353535;
+    content: "";
+    position: absolute;
+
+}
+
+#work .work-items ul li:last-child::after {
+    background: transparent;
+}
+
+#work .work-items ul li a {
+    color: #353535;
+    transition: .3s;
+}
+
+#work .work-items ul li a:hover {
+    color: #8ec448;
+}
+
+#work .work-box {
+    width: 100%;
+}
+
+#work .work-box .image img {
+    width: 100%;
+}
+
+#work .work-box .image {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+#work .work-box .image .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .6);
+    opacity: 0;
+    transition: all ease .8s;
+    transform: scale(0);
+
+}
+
+#work .work-box .image .overlay .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50% -50%);
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #8ec448;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#work .work-box .image .overlay .text{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#work .work-box .image .overlay .text h3{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Raleway',
+        sans-serif;
+    text-transform: uppercase;
+    color: #8ec448;
+}
+
+#work .work-box .image .overlay .text p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#work .details .work-box .image:hover .overlay{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/*----------------------------
+    Work part end
+----------------------------*/
